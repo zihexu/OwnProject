@@ -8,10 +8,10 @@ Setting up Swarm allows you to distribute tasks to other computers, for example,
   - Swarm coordinator can also hold a swarm agent
 
 # Procedure
-1. Set up the Swarm Coordinator
+### 1. Set up the Swarm Coordinator
   -  Open SwarmCoordinator.exe under [UE4ROOT]\Engine\Binaries\DotNET
 
-2. Set up the Swarm Agents in the other computers
+### 2. Set up the Swarm Agents in the other computers
   - Open SwarmAgent.exe under [UE4ROOT]\Engine\Binaries\DotNET
   - Click the Settings tab, find Distribution Settings
   - Change AgentGroupName, AllowedRemoteAgentGroup to Default
@@ -21,7 +21,7 @@ Setting up Swarm allows you to distribute tasks to other computers, for example,
  
 ![Image of SwarmAgent](https://github.com/zihexu/OwnProject/blob/master/SwarmAgent.png)
 
-3. Open Unreal Project
+### 3. Open Unreal Project
   - Build the lightning, you can click Swarm Status tab to see the task distribution on the swarm agent(need image)
 
 # Useful links

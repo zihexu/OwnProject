@@ -17,13 +17,14 @@ Setting up Swarm allows you to distribute tasks to other computers, for example,
   - Change AgentGroupName, AllowedRemoteAgentGroup to Default
   - Change AllowedRemoteAgentNames to *
   - Change CoordinatorRemotingHost to the host computer's IPv4 Address or computer name
+  ![Image of SwarmAgent](https://github.com/zihexu/OwnProject/blob/master/%E6%8D%95%E8%8E%B71.PNG)
   - After setting up all the swarm agents, you can find the name list on the swarm coordinator as below
- 
-![Image of SwarmAgent](https://github.com/zihexu/OwnProject/blob/master/SwarmAgent.png)
+ ![Image of SwarmAgent](https://github.com/zihexu/OwnProject/blob/master/Coordinator.PNG)
+
 
 ### 3. Open Unreal Project
-  - Build the lightning, you can click Swarm Status tab to see the task distribution on the swarm agent(need image)
-
+  - Build the lightning, you can click Swarm Status tab to see the task distribution on the swarm agent
+ ![Image of SwarmAgent](https://github.com/zihexu/OwnProject/blob/master/%E6%8D%95%E8%8E%B7.PNG)
 # Useful links
 For more information: https://docs.unrealengine.com/en-us/Engine/Rendering/LightingAndShadows/Lightmass/Unreal-Swarm-Overview
 
